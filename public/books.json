@@ -1,0 +1,202 @@
+[
+  {
+    "_id": 1,
+    "title": "The Startup Blueprint",
+    "description": "A practical guide for entrepreneurs to build and scale successful businesses.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-1.jpg",
+    "oldPrice": 25.00,
+    "newPrice": 18.50
+  },
+  {
+    "_id": 2,
+    "title": "Windswept Tales",
+    "description": "A collection of fictional short stories that blend magic and reality.",
+    "category": "fiction",
+    "trending": false,
+    "coverImage": "book-2.jpg",
+    "oldPrice": 20.00,
+    "newPrice": 14.99
+  },
+  {
+    "_id": 3,
+    "title": "The Haunted Manor",
+    "description": "A chilling horror story set in a cursed Victorian mansion.",
+    "category": "horror",
+    "trending": true,
+    "coverImage": "book-3.jpg",
+    "oldPrice": 22.00,
+    "newPrice": 16.50
+  },
+  {
+    "_id": 4,
+    "title": "Lost in the Amazon",
+    "description": "An adventure novel about survival deep in the uncharted rainforest.",
+    "category": "adventure",
+    "trending": false,
+    "coverImage": "book-4.jpg",
+    "oldPrice": 24.00,
+    "newPrice": 17.99
+  },
+  {
+    "_id": 5,
+    "title": "Boardroom Strategies",
+    "description": "Insights on leadership, decision-making, and corporate success.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-5.jpg",
+    "oldPrice": 27.00,
+    "newPrice": 20.00
+  },
+  {
+    "_id": 6,
+    "title": "Echoes of Yesterday",
+    "description": "A touching fiction novel about love, memory, and rediscovery.",
+    "category": "fiction",
+    "trending": false,
+    "coverImage": "book-6.jpg",
+    "oldPrice": 19.50,
+    "newPrice": 13.75
+  },
+  {
+    "_id": 7,
+    "title": "The Whispering Shadows",
+    "description": "A horror tale where nightmares merge with reality in terrifying ways.",
+    "category": "horror",
+    "trending": true,
+    "coverImage": "book-7.jpg",
+    "oldPrice": 21.99,
+    "newPrice": 15.99
+  },
+  {
+    "_id": 8,
+    "title": "Treasure of the Forgotten Isles",
+    "description": "An epic adventure across seas and hidden islands filled with danger.",
+    "category": "adventure",
+    "trending": false,
+    "coverImage": "book-8.jpg",
+    "oldPrice": 23.50,
+    "newPrice": 17.25
+  },
+  {
+    "_id": 9,
+    "title": "Financial Freedom",
+    "description": "Strategies to build wealth, invest wisely, and achieve financial independence.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-9.jpg",
+    "oldPrice": 29.99,
+    "newPrice": 21.99
+  },
+  {
+    "_id": 10,
+    "title": "The Forgotten Village",
+    "description": "A gripping fiction story about secrets hidden in a quiet town.",
+    "category": "fiction",
+    "trending": false,
+    "coverImage": "book-10.jpg",
+    "oldPrice": 18.00,
+    "newPrice": 12.99
+  },
+  {
+    "_id": 11,
+    "title": "Midnight Screams",
+    "description": "A horror anthology of spine-tingling short stories.",
+    "category": "horror",
+    "trending": true,
+    "coverImage": "book-11.jpg",
+    "oldPrice": 20.00,
+    "newPrice": 14.50
+  },
+  {
+    "_id": 12,
+    "title": "Across the Desert",
+    "description": "A thrilling adventure of explorers braving sandstorms and hidden dangers.",
+    "category": "adventure",
+    "trending": false,
+    "coverImage": "book-12.jpg",
+    "oldPrice": 22.50,
+    "newPrice": 16.25
+  },
+  {
+    "_id": 13,
+    "title": "Negotiation Mastery",
+    "description": "Techniques for mastering the art of negotiation in business and life.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-13.jpg",
+    "oldPrice": 26.00,
+    "newPrice": 19.75
+  },
+  {
+    "_id": 14,
+    "title": "Autumn Skies",
+    "description": "A warm fiction tale about family, love, and new beginnings.",
+    "category": "fiction",
+    "trending": false,
+    "coverImage": "book-14.jpg",
+    "oldPrice": 19.99,
+    "newPrice": 13.99
+  },
+  {
+    "_id": 15,
+    "title": "The Possessed",
+    "description": "A horror novel about an ancient curse that refuses to be broken.",
+    "category": "horror",
+    "trending": true,
+    "coverImage": "book-15.jpg",
+    "oldPrice": 23.00,
+    "newPrice": 17.25
+  },
+  {
+    "_id": 16,
+    "title": "Climbers of the Summit",
+    "description": "An inspiring adventure about mountaineers facing the ultimate challenge.",
+    "category": "adventure",
+    "trending": false,
+    "coverImage": "book-16.jpg",
+    "oldPrice": 25.00,
+    "newPrice": 18.50
+  },
+  {
+    "_id": 17,
+    "title": "The business Innovator",
+    "description": "Case studies of companies that changed the world through innovation.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-17.jpg",
+    "oldPrice": 28.00,
+    "newPrice": 21.00
+  },
+  {
+    "_id": 18,
+    "title": "Shattered Illusions",
+    "description": "A fiction novel about broken trust and the quest for truth.",
+    "category": "fiction",
+    "trending": false,
+    "coverImage": "book-18.jpg",
+    "oldPrice": 18.50,
+    "newPrice": 12.75
+  },
+  {
+    "_id": 19,
+    "title": "House of horrors",
+    "description": "A terrifying story of a family trapped in a haunted house.",
+    "category": "horror",
+    "trending": true,
+    "coverImage": "book-19.jpg",
+    "oldPrice": 22.00,
+    "newPrice": 16.50
+  },
+  {
+    "_id": 20,
+    "title": "Voyage to the Unknown",
+    "description": "An epic adventure into uncharted territories filled with danger and wonder.",
+    "category": "adventure",
+    "trending": true,
+    "coverImage": "book-20.jpg",
+    "oldPrice": 24.99,
+    "newPrice": 18.75
+  }
+]
