@@ -49,13 +49,13 @@ const orderApi = createApi({
         method: "POST",
         body: newOrder,
       }),
-      invalidatesTags: ["Orders"], 
+      invalidatesTags: ["Orders"], // refresh cache after creating order
     }),
 
     // Get Orders by Email
     getOrdersByEmail: builder.query({
       query: (email) => ({
-        url: `/email/${email}`,
+        url: `/email/${email}`, // dynamic email
       }),
       providesTags: ["Orders"],
     }),
