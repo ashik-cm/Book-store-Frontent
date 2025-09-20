@@ -42,20 +42,20 @@ const orderApi = createApi({
   }),
   tagTypes: ["Orders"],
   endpoints: (builder) => ({
-    // ✅ Create Order
+    // Create Order
     createOrder: builder.mutation({
       query: (newOrder) => ({
         url: "/",
         method: "POST",
         body: newOrder,
       }),
-      invalidatesTags: ["Orders"], // refresh cache after creating order
+      invalidatesTags: ["Orders"], 
     }),
 
-    // ✅ Get Orders by Email
+    // Get Orders by Email
     getOrdersByEmail: builder.query({
       query: (email) => ({
-        url: `/email/${email}`, // dynamic email
+        url: `/email/${email}`,
       }),
       providesTags: ["Orders"],
     }),

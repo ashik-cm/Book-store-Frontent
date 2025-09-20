@@ -10,7 +10,7 @@ const Addbook = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     const [imageFile, setImageFile] = useState(null)
     const [imageFileName, setImageFileName] = useState("")
-    const [addBook, { isLoading, isError }] = useAddBookMutation()
+    const [addBook, { isLoading, isError }] = useAddBookMutation() 
 
     const onSubmit = async (data) => {
         console.log(data)
@@ -86,7 +86,6 @@ const Addbook = () => {
                     <input type="file" accept="image/*" onChange={handleFileChange} className="mb-2 w-full" />
                     {imageFileName && <p className="text-sm text-gray-500">Selected: {imageFileName}</p>}
                 </div>
-
                 {/* Submit Button */}
                 <button type="submit" className="w-full py-2 bg-green-500 text-white font-bold rounded-md">
                     {
