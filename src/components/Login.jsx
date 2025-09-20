@@ -52,12 +52,12 @@ const Login = () => {
                     </div>
                 </form>
                 <p className='align-baseline font-medium mt-4 text-sm'>Dont have an account? Please <Link className='text-blue-600 hover:text-blue-700' to={'/register'}>Register</Link></p>
-                {/* <div className='mt-4'>
+                <div className='mt-4'>
                     <button onClick={handleGoogleSignIn} className='w-full flex flex-wrap gap-1 items-center justify-center
                     bg-secondary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded
                     focus:outline-none'><FaGoogle className='mr-2' />Sign in with Google
                     </button>
-                </div> */}
+                </div>
                 <div className='mt-5 text-center text-gray-500 text-xs'>
                     ©2025 BookIfy. All rights reserved.
                 </div>
